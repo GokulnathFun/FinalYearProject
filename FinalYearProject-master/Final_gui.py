@@ -19,7 +19,7 @@ ser2 = Serial(serialPort2, baudRate, timeout=0, writeTimeout=0)  # ensure non-bl
 
 # make a TkInter Window
 root = Tk()
-root.wm_title("It's a GUI")
+root.wm_title("Data Logger")
 
 # make a scrollbar
 scrollbar = Scrollbar(root)
